@@ -1,7 +1,7 @@
-import React from "react";
-import Container from "./container";
-import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/solid";
+import React from 'react';
+import Container from './container';
+import { Disclosure } from '@headlessui/react';
+import { ChevronUpIcon } from '@heroicons/react/solid';
 
 export default function Faq() {
   return (
@@ -16,7 +16,7 @@ export default function Faq() {
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
-                        open ? "transform rotate-180" : ""
+                        open ? 'transform rotate-180' : ''
                       } w-5 h-5 text-indigo-500`}
                     />
                   </Disclosure.Button>
@@ -35,21 +35,24 @@ export default function Faq() {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: 'How many lessons will I need to learn to drive?',
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      'This depends very much on your general skills, age and the time you can invest in your driving lessons. According to official statistics, the average person takes about 45 lessons with an instructor plus 22 private hours to pass the test. Generally, learners who have been cycling, riding a moped or have similar experience will learn to drive more easily. However, our friendly and professional instructors are trained to teach also those who are less skilled!',
   },
   {
-    question: "Do you offer technical support? ",
+    question:
+      'I am very anxious, will I need more driving lessons than other learners?',
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      'From experience, there is generally no significant difference between the amount of lessons needed for anxious learners and those who are relatively confident. It is natural for new learners to think that they are more anxious than others, but they will overcome this problem throughout the course. Remember, learning to drive with SAS Driving School is supposed to be fun as wel',
+  },
+  {
+    question: 'What is the most efficient way to learn to drive? ',
+    answer:
+      'This depends very much on individual preferences, but most learners naturally become tired and less attentive after 1.5-2 hours of driving tuition. Therefore it is recommended not to exceed 2 hours of lessons at a time or to have a break in-between. In order to maintain the efficiency of your learning, it is important to continue with driving lessons on a very regular basis',
+  },
+  {
+    question: 'Do I have to bring my own car? ',
+    answer:
+      "No, the driving lessons will be done in the school's dual controller car.",
   },
 ];
