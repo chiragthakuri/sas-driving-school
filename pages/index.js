@@ -51,10 +51,10 @@ export default function Home() {
         title="Here's what our clients said"
       ></SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
+      <SectionTitle
+        pretitle="FAQ"
+        title="Frequently Asked Questions"
+      ></SectionTitle>
       <Faq />
 
       <Footer />
