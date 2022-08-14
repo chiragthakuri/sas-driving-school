@@ -5,9 +5,11 @@ import {
   DeviceMobileIcon,
   AdjustmentsIcon,
   SunIcon,
+  CheckIcon,
+  ThumbUpIcon,
 } from '@heroicons/react/outline';
 
-import benefitOneImg from '../public/img/benefit-one.png';
+import benefitOneImg from '../public/img/benefit-one.jpg';
 // import benefitTwoImg from '../public/img/benefit-two.png';
 
 const benefitOne = {
@@ -16,19 +18,19 @@ const benefitOne = {
   image: benefitOneImg,
   bullets: [
     {
-      title: 'Understand your customers',
-      desc: 'Then explain the first point breifly in one or two lines.',
+      title: 'Flexible Lesson Package',
+      desc: 'We offer 1 hour, 1 hour and 30 mins, and 2 hours driving lesson',
       icon: <EmojiHappyIcon />,
     },
     {
-      title: 'Improve acquisition',
-      desc: 'Here you can add the next benefit point.',
-      icon: <ChartSquareBarIcon />,
+      title: 'Parking',
+      desc: 'Parking for every situation: Parallel Praking, Reverse Parking and Angle Parking',
+      icon: <CheckIcon />,
     },
     {
-      title: 'Drive customer retention',
-      desc: 'This will be your last bullet point in this section.',
-      icon: <CursorClickIcon />,
+      title: 'Bad weather driving skills',
+      desc: 'Learn to drive confidently even in snowy Winnipeg roads!',
+      icon: <ThumbUpIcon />,
     },
   ],
 };
